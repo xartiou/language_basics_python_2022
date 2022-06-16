@@ -5,5 +5,5 @@
 
 # нужно перевести int в str, сконкатенировать и перевести из str в int, а потом вычислить
 n = int(input('Введите число N: '))
-sum_nnn = (n + int(str(n) + str(n)) + int(str(n) + str(n) + str(n)))
-print('Сумма  N + NN + NNN = ', sum_nnn)
+sum_nnn = (n + int(str(n) * 2) + int(str(n) * 3))
+print(f'Сумма  N + NN + NNN = {sum_nnn}')
